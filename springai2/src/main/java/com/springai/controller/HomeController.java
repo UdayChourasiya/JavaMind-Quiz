@@ -1,6 +1,5 @@
 package com.springai.controller;
 
-import com.springai.Springai2Application;
 import com.springai.model.Question;
 
 import jakarta.servlet.http.HttpSession;
@@ -14,7 +13,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class HomeController {
